@@ -90,7 +90,7 @@ div img {
 }
 
 .thumbs {
-	float: left;
+	/* float: left; */
 	margin-bottom: 50px;
     width: 100%;
     align-items: flex-start;
@@ -105,18 +105,21 @@ div img {
 }
 
 .thumb-image img{
-
 	width: 200px;
 	display: block;
 }
-
-/*
-
-
-
-
-#mag img{
-	width: 20px;
-	height: 20px;
+.thumb-text {
+	flex-direction: column;
+    flex-basis: 70%;
+    align-items: flex-start;
+	padding: 0 10px;
 }
-*/
+h5 {
+	font-weight: bold;
+	font-size: 1em;
+}
+span {
+	font-size: 0.9em;
+    color: #777;
+    margin: 5px 0 0;
+}
