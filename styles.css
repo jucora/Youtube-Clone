@@ -33,6 +33,10 @@ div {
 	width: 75em;
 	padding: 8px 5px;
 }
+.ham-icon {
+	float: left;
+	width: 60px;
+}
 #left-nav-image{
 	float: left;
 	margin-left: 10px;
@@ -42,15 +46,37 @@ div {
     margin: 0 40px;
     align-items: stretch;
 }
+form {
+	display: flex;
+	flex-basis: 100%;
+}
+input {
+	flex-basis: 100%;
+	width: 100%;
+	padding: 6px;
+	border: 1px solid #ccc;
+	border-right: none;
+}
+button {
+	display: flex;
+}
+/* button img {
+	width: 13px;
+	height: 13px;
+} */
 #right-nav-image {
     float: right;
-    margin-right: 20px;
+	margin-right: 5px;
+}
+#right-nav-image img {
+	margin-left: 20px;
 }
 div img {
 	float: left;
     width: 30px;
     display: block;
 }
+
 #mag {
     width: 65px;
     background-color: #d3d3d3;
