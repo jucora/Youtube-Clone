@@ -82,6 +82,34 @@ div img {
     background-color: #d3d3d3;
 }
 
+
+#sidebar {
+    flex-direction: column;
+    flex-basis: 40%;
+    padding: 0 15px;
+}
+
+.thumbs {
+	float: left;
+	margin-bottom: 50px;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.thumb-image {
+    flex-direction: column;
+    flex-basis: 30%;
+    height: 100px;
+    margin: 0 0 10px;
+}
+
+.thumb-image img{
+
+	width: 200px;
+	display: block;
+}
+
 /*
 
 
