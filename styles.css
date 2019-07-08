@@ -91,7 +91,7 @@ div img {
 
 .thumbs {
 	/* float: left; */
-	margin-bottom: 50px;
+	margin-bottom: 40px;
     width: 100%;
     align-items: flex-start;
     justify-content: flex-start;
@@ -103,7 +103,6 @@ div img {
     height: 100px;
     margin: 0 0 10px;
 }
-
 .thumb-image img{
 	width: 200px;
 	display: block;
@@ -113,10 +112,12 @@ div img {
     flex-basis: 70%;
     align-items: flex-start;
 	padding: 0 10px;
+	position: relative;
 }
 h5 {
 	font-weight: bold;
 	font-size: 1em;
+	margin: 0;
 }
 span {
 	font-size: 0.9em;
