@@ -1,11 +1,54 @@
-nav img {
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #fff;
+}
+
+.header-container{
+	position: sticky;
+}
+
+header{
+	display: flex;
+}
+
+#left-nav-image{
+	float: left;
+	margin-left: 10px;
+}
+
+.search-wrapper {
+    flex-basis: 45em;
+    margin: 0 40px;
+    align-items: stretch;
+}
+
+#right-nav-image {
+    float: right;
+    margin-right: 20px;
+}
+
+div img {
+	float: left;
     width: 80px;
-    height: 24px;
-    float: left;
+    display: block;
 }
-form {
-    float: left;
-}
+
 #mag {
     width: 65px;
+    background-color: #d3d3d3;
 }
+
+/*
+
+
+
+
+#mag img{
+	width: 20px;
+	height: 20px;
+}
+*/
