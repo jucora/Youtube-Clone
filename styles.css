@@ -87,12 +87,19 @@ div img {
     padding: 0;
     align-items: flex-start;
 }
+.main-vid {
+	position: static;
+}
+.vid-description {
+	position: relative;
+}
 
 
 #sidebar {
     flex-direction: column;
     flex-basis: 40%;
-    padding: 0 15px;
+	padding: 0 15px;
+	float: left;
 }
 
 .thumbs {
