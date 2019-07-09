@@ -89,8 +89,6 @@ div img {
 
 }
 
-
-
 .video-section{
 	width: 60%;
 	display: inline-block;
@@ -106,7 +104,6 @@ div img {
 }
 
 .thumbs {
-	/* float: left; */
 	margin-bottom: 40px;
     width: 100%;
     align-items: flex-start;
