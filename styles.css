@@ -81,6 +81,12 @@ div img {
     width: 65px;
     background-color: #d3d3d3;
 }
+.content-wrapper {
+	max-width: 70em;
+    margin: auto;
+    padding: 0;
+    align-items: flex-start;
+}
 
 
 #sidebar {
