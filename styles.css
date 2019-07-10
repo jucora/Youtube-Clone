@@ -58,9 +58,9 @@ div img {
     margin: 0 40px;
 }
 input {
-	flex-basis: 100%;
-	padding: 6px;
-	width: 100%;
+	font-size: 18px;
+	height: 29px;
+	width: 500px;
 }
 button {
 	display: flex;
@@ -72,7 +72,6 @@ button {
 .right-nav-image img {
 	margin-left: 30px;
 }
-
 
 /* Main video section styling */
 
