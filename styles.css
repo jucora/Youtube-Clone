@@ -14,7 +14,7 @@ header {
 	flex-wrap: nowrap;
 	justify-content: center;
 	margin: 0 0 15px;
-	position: sticky;
+	position: relative;
 	top: 0;
 	z-index: 1;
 }
