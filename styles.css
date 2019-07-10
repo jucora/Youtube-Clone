@@ -5,12 +5,19 @@
 body {
 	background-color: #fff;
 }
-.header-container {
+
+header {
 	position: sticky;
 	margin: 0 0 15px;
 	z-index: 1;
 	box-shadow: 0 1px 5px #eee;
 	top: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
 }
 #yti {
 	width: 60px;
@@ -23,7 +30,7 @@ div {
 	align-content: center;
 	align-items: center;
 }
-.wrapper { 
+nav { 
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
