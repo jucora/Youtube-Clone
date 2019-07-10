@@ -26,7 +26,6 @@ nav {
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-	padding: 8px 5px;
 	width: 75em;
 }
 div {
@@ -46,11 +45,11 @@ div img {
 	float: left;
     width: 30px;
 }
-#left-nav-image {
+.left-nav-image {
 	float: left;
 	margin-left: 10px;
 }
-#yti {
+.yti {
 	width: 60px;
 }
 .search-bar {
@@ -68,7 +67,7 @@ input {
 button {
 	display: flex;
 }
-#right-nav-image {
+.right-nav-image {
     float: right;
 	margin-right: 5px;
 }
@@ -113,7 +112,7 @@ span img {
 /* Sidebar styling */
 
 
-#sidebar {
+.sidebar {
 	flex-basis: 40%;
     flex-direction: column;
 	float: left;
