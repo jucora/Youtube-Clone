@@ -58,8 +58,6 @@ div img {
     margin: 0 40px;
 }
 input {
-	border: 1px solid #ccc;
-	border-right: none;
 	flex-basis: 100%;
 	padding: 6px;
 	width: 100%;
@@ -71,8 +69,8 @@ button {
     float: right;
 	margin-right: 5px;
 }
-#right-nav-image img {
-	margin-left: 20px;
+.right-nav-image img {
+	margin-left: 30px;
 }
 
 
@@ -95,8 +93,8 @@ span {
 }
 span img {
 	height: 20px;
-	width: 20px;
 	margin-left: 8px;
+	width: 20px;
 }
 .video-title {
 	color: black;
