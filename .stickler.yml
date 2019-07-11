@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 linters:
     flake8:
@@ -9,3 +10,10 @@ files:
     ignore:
         - 'src/generated/*'
         - 'webroot/bower_components/*'
+=======
+linters:
+  csslint: {  }
+files:
+  ignore:
+    - 'bower_components/*'
+>>>>>>> a7ce693716273fd8bc866979e117d8d90ead55c8
